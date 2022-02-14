@@ -1,3 +1,21 @@
 ﻿@{
     ViewData["Title"] = "Bold Text Page";
 }
+<div style="white-space: nowrap">
+    <h3>Bold Your Text!</h3>
+
+    <form>
+        <label> Please enter your text below:</label><br />
+        <textarea id="inputBold"></textarea>
+
+        <button type="button" id="convertBoldBtn" class="btn btn-success" onclick="DisplayUserInput()">Convert</button>
+
+        <textarea id="outputBold" readonly>
+        </textarea>
+    </form>
+</div>
+<script>
+    function DisplayUserInput() {
+        document.getElementById("outputBold").value = document.getElementById("inputBold").value;
+    }
+</script>

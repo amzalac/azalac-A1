@@ -1,4 +1,4 @@
-﻿#inputBGColour {
+﻿#inputBGColour, #inputReverse, #inputBold {
     margin-left: 1em;
     width: 400px;
     max-width: 400px;
@@ -18,13 +18,6 @@
     word-break: break-all;
 }
 
-#inputReverse {
-    margin-left: 1em;
-    width: 400px;
-    max-width: 400px;
-    height: 200px;
-}
-
 #outputReverse {
     width: 400px;
     max-width: 400px;
@@ -33,7 +26,16 @@
     float: right;
 }
 
-#convertBtn, #reverseBtn {
+#outputBold {
+    width: 400px;
+    max-width: 400px;
+    height: 200px;
+    display: inline-block;
+    float: right;
+    font-weight: bold;
+}
+
+#convertBtn, #convertBoldBtn {
     margin-left: 0.7em;
 }
 

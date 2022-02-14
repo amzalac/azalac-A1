@@ -17,7 +17,6 @@
 <script>
     function DisplayUserInput() {
         let userInput = document.getElementById("inputReverse").value;
-
         let reverseInput = userInput.split('').reverse().join();
         document.getElementById("outputReverse").value = reverseInput.replace(/,/g, '');
     }
