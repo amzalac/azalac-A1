@@ -1,4 +1,4 @@
-﻿#inputBGColour, #inputReverse, #inputBold {
+﻿#inputBGColour, #inputReverse, #inputBold, #inputItalic {
     margin-left: 1em;
     width: 400px;
     max-width: 400px;
@@ -15,7 +15,6 @@
     display: inline-block;
     float: right;
     padding: 0.5em;
-    word-break: break-all;
 }
 
 #outputReverse {
@@ -35,7 +34,16 @@
     font-weight: bold;
 }
 
-#convertBtn, #convertBoldBtn {
+#outputItalic {
+    width: 400px;
+    max-width: 400px;
+    height: 200px;
+    display: inline-block;
+    float: right;
+    font-style: italic;
+}
+
+#convertBtn, #convertBoldBtn, #convertItalicBtn {
     margin-left: 0.7em;
 }
 

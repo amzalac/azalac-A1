@@ -1,3 +1,21 @@
 ﻿@{
     ViewData["Title"] = "Italic Text Page";
 }
+<div style="white-space: nowrap">
+    <h3>Italicize Your Text!</h3>
+
+    <form>
+        <label> Please enter your text below:</label><br />
+        <textarea id="inputItalic"></textarea>
+
+        <button type="button" id="convertItalicBtn" class="btn btn-success" onclick="DisplayUserInput()">Convert</button>
+
+        <textarea id="outputItalic" readonly>
+        </textarea>
+    </form>
+</div>
+<script>
+    function DisplayUserInput() {
+        document.getElementById("outputItalic").value = document.getElementById("inputItalic").value;
+    }
+</script>
