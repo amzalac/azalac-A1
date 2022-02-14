@@ -1,1 +1,31 @@
-﻿
+﻿#inputBGColour {
+    margin-left: 1em;
+    width: 400px;
+    max-width: 400px;
+    height: 200px;
+}
+
+#outputDiv {
+    background-color: forestgreen;
+    color: white;
+    min-height: 200px;
+    width: 400px;
+    max-width: 400px;
+    border: 1px solid black;
+    display: inline-block;
+    float: right;
+    padding: 0.5em;
+    word-break: break-all;
+}
+
+a {
+    color: forestgreen;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+#convertBtn {
+    margin-left: 0.8em;
+}

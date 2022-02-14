@@ -1,3 +1,21 @@
 ﻿@{
     ViewData["Title"] = "Change BG Colour Page";
 }
+<div style="white-space: nowrap">
+    <h3>Display Your Text On A Green Background!</h3>
+
+    <form>
+        <label>Please enter your text below:</label><br />
+        <textarea id="inputBGColour"></textarea>
+
+        <button type="button" id="convertBtn" class="btn btn-success" onclick="DisplayUserInput()">Convert</button>
+
+        <textarea id="outputDiv" readonly>
+        </textarea>
+    </form>
+</div>
+<script>
+    function DisplayUserInput() {
+        document.getElementById("outputDiv").value = document.getElementById("inputBGColour").value;
+    }
+</script>
