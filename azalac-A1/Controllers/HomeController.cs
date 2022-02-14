@@ -23,7 +23,22 @@ namespace azalac_A1.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult ChangeBGColour()
+        {
+            return View();
+        }
+
+        public IActionResult ReverseText()
+        {
+            return View();
+        }
+
+        public IActionResult BoldText()
+        {
+            return View();
+        }
+
+        public IActionResult ItalicText()
         {
             return View();
         }
